@@ -17,3 +17,21 @@ Repository cloning is recommended for the following people,
 **Version built on RasPi4 and 256Gibs is now available!**
 
 *USB Keyboard is working!*
+<pre>
+<code id="code-block">
+def hello_world():
+    print("Hello, world!")
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+<script>
+function copyToClipboard() {
+    var code = document.getElementById("code-block").innerText;
+    navigator.clipboard.writeText(code).then(function() {
+        alert("Copied to clipboard!");
+    }, function(err) {
+        alert("Failed to copy: ", err);
+    });
+}
+</script>

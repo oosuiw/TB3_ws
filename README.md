@@ -83,12 +83,12 @@ cd ..
 
 비어있는 폴더는 삭제!
   
+<pre>
+<code id="code-block">
+sudo rm -r TB3_ws
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
-sudo rm -r TB3_ws
-<pre>
-<code id="code-block">
 
 ---
 

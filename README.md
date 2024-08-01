@@ -170,12 +170,13 @@ echo 'source ~/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
 </pre>
 <button onclick="copyToClipboard()"></button>
 
-===
+---
+
 *이번엔 직접 bashrc파일 수정하는 시간, TOP <-> BOT 간 연결하는 과정*
 
 <pre>
 <code id="code-block">
-#<REMOTE PC = 노트북(TOP)>
+"#<REMOTE PC = 노트북(TOP)>"
 export ROS_IP=노트북 IP
 export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=$ROS_IP

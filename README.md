@@ -117,7 +117,7 @@ tar xvf log.tar.xz
 
 ---
 
-*압축풀고 필요없어진 파일 삭제하는 과정..*
+*압축풀고 필요없어진 파일 삭제하는 과정..(선택사항)*
 
 <pre>
 <code id="code-block">
@@ -139,6 +139,7 @@ sudo rm log.tar.xz
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
+
 
 ===
 

@@ -67,18 +67,17 @@ sudo mv log.tar.xz /home/ubuntu/turtlebot3_ws/
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
-sudo mv log.tar.xz /home/ubuntu/turtlebot3_ws/
-<pre>
-<code id="code-block">
+
+---
 
 다시 상위폴더로 이동..
 
-</code>
-</pre>
-<button onclick="copyToClipboard()"></button>
-cd ..
 <pre>
 <code id="code-block">
+cd ..
+</code>
+</pre>
+<button onclick="copyToClipboard()"></button
 
 ---
 

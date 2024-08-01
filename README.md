@@ -176,7 +176,8 @@ echo 'source ~/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
 
 ---
 
-**<REMOTE PC = 노트북(TOP)>**
+**<REMOTE_PC = 노트북(TOP)>**
+
 <pre>
 <code id="code-block">
 export ROS_IP=노트북 IP

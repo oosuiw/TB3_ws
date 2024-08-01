@@ -77,7 +77,7 @@ sudo mv log.tar.xz /home/ubuntu/turtlebot3_ws/
 cd ..
 </code>
 </pre>
-<button onclick="copyToClipboard()"></button
+<button onclick="copyToClipboard()"></button>
 
 ---
 

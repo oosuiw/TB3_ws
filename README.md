@@ -17,9 +17,12 @@ Repository cloning is recommended for the following people,
 **Version built on RasPi4 and 256Gibs is now available!**
 
 *USB Keyboard is working!*
+
+---
+
 <pre>
 <code id="code-block">
-ㅋㅋ
+
 </code>
 </pre>
 <button onclick="copyToClipboard()">Copy</button>

@@ -8,8 +8,10 @@ Repository cloning is recommended for the following people,
 1. whose builds are not progressing by more than 28% in 5 hours due to low memory
 2. cannot swap memory due to insufficient storage
 
-| 헤더1                 | 헤더2                 | 헤더3     |
+| RasPi                | Micro SD                 | BUILD     |  
 |----------------------|----------------------|----------------------|
-| 셀1                  | 셀2                   | 셀3       |
-| 셀4                  | 셀5                   | 셀6       |
-| 셀7                  | 셀8                   | 셀9       |
+| RasPi3                  | 16Gib                   | X      | 
+| RasPi3                  | 256Gib                   | X       | 
+| RasPi4                  | 256Gib                   | X       |
+
+**Version built on RasPi4 and 256Gibs is now available! (The memory swap of 200Gibs is a secret)**

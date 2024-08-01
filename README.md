@@ -14,4 +14,6 @@ Repository cloning is recommended for the following people,
 | RasPi3                  | 256Gib                   | X       | 
 | RasPi4                  | 256Gib                   | X       |
 
-**Version built on RasPi4 and 256Gibs is now available! (The memory swap of 200Gibs is a secret)**
+**Version built on RasPi4 and 256Gibs is now available!**
+
+*USB Keyboard is working!*

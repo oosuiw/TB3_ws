@@ -63,7 +63,7 @@ sudo mv install.tar.xz /home/ubuntu/turtlebot3_ws/
 
 <pre>
 <code id="code-block">
-
+sudo mv log.tar.xz /home/ubuntu/turtlebot3_ws/
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>

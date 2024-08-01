@@ -19,6 +19,47 @@ Repository cloning is recommended for the following people,
 *USB Keyboard is working!*
 
 ---
+*다운로드 받으려는 경로로 이동*
+<pre>
+<code id="code-block">
+cd ~/turtlebot3_ws
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+---
+*빌드 완료된 파일 다운로드*
+<pre>
+<code id="code-block">
+https://github.com/oosuiw/TB3_ws.git
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+*다운로드 받은 폴더로 이동*
+<pre>
+<code id="code-block">
+cd TB3_ws/
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+---
+
+*다운로드 받은 파일를 상위 폴더로 이동*
+<pre>
+<code id="code-block">
+sudo mv build.tar.xz /home/ubuntu/turtlebot3_ws/
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+<pre>
+<code id="code-block">
+sudo mv install.tar.xz /home/ubuntu/turtlebot3_ws/
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
 
 <pre>
 <code id="code-block">
@@ -26,4 +67,125 @@ Repository cloning is recommended for the following people,
 </code>
 </pre>
 <button onclick="copyToClipboard()">Copy</button>
+sudo mv log.tar.xz /home/ubuntu/turtlebot3_ws/
+<pre>
+<code id="code-block">
+
+다시 상위폴더로 이동..
+
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+cd ..
+<pre>
+<code id="code-block">
+
+---
+
+비어있는 폴더는 삭제!
+  
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+sudo rm -r TB3_ws
+<pre>
+<code id="code-block">
+
+---
+
+다운로드 받고 이동시킨 파일 압축해제하는 과정..
+  
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+tar xvf build.tar.xz
+<pre>
+<code id="code-block">
+
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+tar xvf install.tar.xz
+<pre>
+<code id="code-block">
+tar xvf log.tar.xz
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+---
+
+*압축풀고 필요없어진 파일 삭제하는 과정..*
+
+<pre>
+<code id="code-block">
+sudo rm build.tar.xz 
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+<pre>
+<code id="code-block">
+sudo rm install.tar.xz 
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+<pre>
+<code id="code-block">
+sudo rm log.tar.xz 
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+===
+
+**여기부터는 환경 셋업!**
+
+*아래의 숫자(=30) 다른 사람과 중복안됨! 겹치지 않는 숫자로..*
+<pre>
+<code id="code-block">
+echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc 
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+
+<pre>
+<code id="code-block">
+echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+
+<pre>
+<code id="code-block">
+echo 'source ~/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+===
+*이번엔 직접 bashrc파일 수정하는 시간, TOP <-> BOT 간 연결하는 과정*
+
+<pre>
+<code id="code-block">
+#<REMOTE PC = 노트북(TOP)>
+export ROS_IP=노트북 IP
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_HOSTNAME=$ROS_IP
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
+<pre>
+<code id="code-block">
+#<TurtleBot3 SBC, = 로봇(BOT)>
+export ROS_MASTER_URI=https://노트북 IP:11311
+export ROS_HOSTNAME=로봇 IP
+</code>
+</pre>
+<button onclick="copyToClipboard()">Copy</button>
+
 

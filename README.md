@@ -107,10 +107,13 @@ tar xvf build.tar.xz
 tar xvf install.tar.xz
 <pre>
 <code id="code-block">
-tar xvf log.tar.xz
+
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
+tar xvf log.tar.xz
+<pre>
+<code id="code-block">
 
 ---
 

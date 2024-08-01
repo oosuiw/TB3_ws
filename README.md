@@ -93,27 +93,28 @@ sudo rm -r TB3_ws
 ---
 
 다운로드 받고 이동시킨 파일 압축해제하는 과정..
-  
-</code>
-</pre>
-<button onclick="copyToClipboard()"></button>
+
+<pre>
+<code id="code-block">
 tar xvf build.tar.xz
-<pre>
-<code id="code-block">
-
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
+
+<pre>
+<code id="code-block">
 tar xvf install.tar.xz
-<pre>
-<code id="code-block">
-
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
-tar xvf log.tar.xz
+
 <pre>
 <code id="code-block">
+tar xvf log.tar.xz
+</code>
+</pre>
+<button onclick="copyToClipboard()"></button>
+  
 
 ---
 

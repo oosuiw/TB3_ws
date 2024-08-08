@@ -31,7 +31,7 @@ cd ~/turtlebot3_ws
 *빌드 완료된 파일 다운로드*
 <pre>
 <code id="code-block">
-https://github.com/oosuiw/TB3_ws.git
+git clone https://github.com/oosuiw/TB3_ws.git
 </code>
 </pre>
 <button onclick="copyToClipboard()"></button>
